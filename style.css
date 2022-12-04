@@ -115,6 +115,9 @@
   border-radius: 6px;
   cursor: pointer;
 }
+.share-button button:hover {
+  background-color: #4494fc
+}
 .profile {
   width: 45px;
   margin: 15px 25px;
@@ -131,7 +134,7 @@
 #hamburger {
   display: none;
   margin: 2rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .mobile-div{
   display: none;
@@ -148,7 +151,7 @@
   cursor: pointer;
   list-style: none;
   width: 300px;
-  margin: 10px 5px;
+  margin: 15px 6px;
 }
 .mobile-menu li{
   padding: 5px 20px;
