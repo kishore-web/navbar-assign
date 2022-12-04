@@ -22,28 +22,37 @@
 }
 .img-container img{
   width: 100%;
+  cursor: pointer;
 }
 .menu-container {
   margin: 5px;
 }
-.top-menu h3{
+.top-menu input{
   display: inline-block;
   vertical-align: top;
-  padding: 0 4px;
+  padding: 0 5px;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  color: black;
+  border: none;
+  width: 250px;
 }
-.top-menu h3:hover{
-  border: 0.8px solid gray;
-  border-radius: 2px;
+.top-menu input::placeholder{
+  color: #000000;
 }
 .menu-icons{
   display: inline-block;
   font-size: 1.2rem;
   color: gray;
   margin: 4px 5px;
+  cursor: pointer;
 }
-
+.menu-icons i{
+  border-radius: 4px;
+}
+.menu-icons i:hover{
+  background-color: rgb(233, 232, 232);
+}
 .bottom-menu {
   list-style-type: none;
 }
@@ -178,7 +187,7 @@
   }
 }
 @media screen and (min-width: 420px) {
-.mobile-menu {
-  display: none;
-}
+  .mobile-menu {
+    display: none;
+  }
 }
