@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoogleDocs-NavBar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- for Mobile view -->
+  <div id="hamburger" >
+    <i class="fa fa-bars"  aria-hidden="true"></i>
+    <p style="display: inline-block;">Google Docs</p>
+  </div>
+
+  <nav class="wrapper">
+    <!-- Left Side Menu Content -->
+    <div class="left-wrapper">
+      <div class="img-container">
+        <img src="src/docsicon.png" alt="doc-icon">
+      </div>
+      <div class="menu-container">
+        <div class="top-menu">
+          <h3>Intro to Data Structures</h3>
+          <div class="menu-icons">
+            <i class='fa fa-star' style="padding: 0 5px"></i>
+            <i class="fa fa-folder-open-o"style="padding: 0 5px" ></i>
+            <i class="fa fa-cloud-upload" style="padding: 0 5px"></i>
+          </div>
+        </div>
+        <ul class="bottom-menu">
+          <li>File</li>
+          <li>Edit</li>
+          <li>View</li>
+          <li>Insert</li>
+          <li>Format</li>
+          <li>Tools</li>
+          <li>Extensions</li>
+          <li>Help</li>
+          <li>Last edit was 2 minutes ego</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right Side Menu Content -->
+    <div class="right-wrapper">
+      <div class="comment-box">
+        <i class="fa fa-envelope-o"></i>
+      </div>
+      <div class="video-call">
+          <img src="src/GoogleMeet.png" alt="googlemeet">
+          <div>
+            <i class="fa fa-caret-down" aria-hidden="true" style="color: #1a73e8; margin-left: 3px;"></i>
+          </div>   
+      </div>
+      <div class="share-button">
+        <button><i class="fa fa-lock" aria-hidden="true" style="margin-right: 12px;"></i>Share</button>
+      </div>
+      <div class="profile">
+        <img src="src/profile.jpeg" alt="profileImage">
+      </div>
+    </div>
+  </nav>
+<!-- for mobile view -->
+<div class="mobile-div">
+  <ul class="mobile-menu">
+    <li>File</li>
+    <li>Edit</li>
+    <li>View</li>
+    <li>Insert</li>
+    <li>Format</li>
+    <li>Tools</li>
+    <li>Extensions</li>
+    <li>Help</li>
+  </ul>
+</div>
+  <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
