@@ -12,8 +12,9 @@
 .left-wrapper {
   display: flex;
   margin-left: 8px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   width: max-content;
+  align-items: center;
 }
 .img-container {
   width: 50px;
@@ -78,6 +79,7 @@
   top: 4px;
   z-index: 10;
   background-color: white;
+  /* margin-right: 10px; */
 }
 .right-wrapper > div{
   cursor: pointer;
@@ -136,9 +138,10 @@
 .profile img{
   width: 100%;
   border-radius: 50%;
+  border: solid 4px transparent;
 }
 .profile img:hover{
-  border: solid 4px rgb(213, 211, 211);
+  border-color: rgb(213, 211, 211);
 }
 #hamburger {
   display: none;
